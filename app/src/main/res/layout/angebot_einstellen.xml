@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <ImageButton
+        android:id="@+id/imageButtonHome"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_baseline_home_24"/>
+
+    <ImageView
+        android:id="@+id/add_symbol"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/ic_baseline_library_add_24" />
+
+    <TextView
+        android:id="@+id/textViewEinstellen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/angebot_einstellen"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/neues_angebot_titel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:hint="@string/titel_des_angebots"/>
+
+    <EditText
+        android:id="@+id/neues_angebot_beschreibung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:hint="@string/beschreibung_des_angebots"/>
+
+    <TextView
+        android:id="@+id/textViewVerwalten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kategorie_auswählen"/>
+
+    <Spinner
+        android:id="@+id/neues_angebot_kategorie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:entries="@array/kategorien_dropdown"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/angebot_einstellen"
+        android:id="@+id/button_angebot_einstellen"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

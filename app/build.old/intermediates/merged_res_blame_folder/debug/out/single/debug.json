@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.shareit.app-merged_res-25:/drawable_logo_shareit_background.xml.flat",
+        "source": "com.example.shareit.app-main-27:/drawable/logo_shareit_background.xml"
+    },
+    {
+        "merged": "com.example.shareit.app-merged_res-25:/layout_activity_main.xml.flat",
+        "source": "com.example.shareit.app-main-27:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.shareit.app-merged_res-25:/layout_card_layout.xml.flat",
+        "source": "com.example.shareit.app-main-27:/layout/card_layout.xml"
+    },
+    {
+        "merged": "com.example.shareit.app-merged_res-25:/raw_alleangebote.csv.flat",
+        "source": "com.example.shareit.app-main-27:/raw/alleangebote.csv"
+    },
+    {
+        "merged": "com.example.shareit.app-merged_res-25:/drawable_logo_shareit.png.flat",
+        "source": "com.example.shareit.app-main-27:/drawable/logo_shareit.png"
+    }
+]

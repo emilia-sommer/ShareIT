@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">shareIT</string>
+    <string name="course_name">shareIT</string>
+    <string name="course_rating">5</string>
+    <string name="bücher">Bücher</string>
+    <string name="zeitschriften">Zeitschriften</string>
+    <string name="cds">CDs</string>
+    <string name="dvds">DVDs</string>
+    <string name="sonstiges">Sonstiges</string>
+    <string name="kategorien_überschrift">Kategorienauswahl</string>
+    <string name="kategorien_anzeigen">ausgewählte Kategorien anzeigen</string>
+    <string name="fehlermeldung_kategorieauswahl">Du musst mindestens eine Kategorie auswählen, damit dir Angebote angezeigt werden können.</string>
+    <string name="zurück_zur_kategorienauswahl">zurück zur Kategorienauswahl</string>
+    <string name="fehlermeldung_keine_angebote">Es gibt für die von dir ausgewählte(n) Kategorie(n) momentan leider keine Angebote.</string>
+    <string name="alle_angebote_anzeigen">Angebote aller Kategorien anzeigen</string>
+    <string name="einloggen">einloggen</string>
+    <string name="benutzername">Benutzername</string>
+    <string name="passwort">Passwort</string>
+    <string name="logout">Logout</string>
+    <string name="neues_angebot_einstellen">neues Angebot einstellen</string>
+    <string name="angebote_aktualisieren">Angebote aktualisieren</string>
+    <string name="angebote_filtern">Angebote filtern</string>
+    <string name="angebote_verwalten">meine Angebote verwalten</string>
+    <string name="titel_des_angebots">Titel des Angebots</string>
+    <string name="beschreibung_des_angebots">kurze Beschreibung des Angebots</string>
+    <string name="angebot_einstellen">Angebot einstellen</string>
+    <string-array name="kategorien_dropdown">
+        <item>Bücher</item>
+        <item>Zeitschriften</item>
+        <item>CDs</item>
+        <item>DVDs</item>
+        <item>Sonstiges</item>
+    </string-array>
+    <string name="kategorie_auswählen">Kategorie auswählen:</string>
+    <string name="meine_angebote">meine Angebote</string>
+    <string name="angebot_loeschen_wartemeldung">Dein Angebot wird gelöscht. Bitte warte kurz.</string>
+    <string name="angebot_einstellen_wartemeldung">Dein Angebot wird eingestellt. Bitte warte kurz.</string>
+    <string name="profil">Profil</string>
+    <string name="vorname">Vorname</string>
+    <string name="nachname">Nachname</string>
+    <string name="klasse">Klasse</string>
+    <string name="nachricht_versenden">Nachricht versenden</string>
+    <string name="chat_mit_person_x">Chat mit Person x</string>
+    <string name="meine_favoriten_ansehen">meine Favoriten ansehen</string>
+    <string name="fehlermeldung_keine_favoriten">Du hast noch keine Angebote favorisiert. Sieh dir die Angebote an und entdecke deine Favoriten.</string>
+    <string name="fehlermeldung_keine_eingestellten_angebote">Du hast noch kein(e) Angebot(e) eingestellt.</string>
+    <string name="keine_internetverbindung">Du hast momentan keine Internetverbindung.</string>
+</resources>

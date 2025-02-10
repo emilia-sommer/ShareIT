@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--
+    <androidx.appcompat.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar_mainXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:background="@color/purple_500"
+        android:elevation="@dimen/toolbar_elevation"/>
+    -->
+
+    <ImageView
+        android:id="@+id/image_view_verwaltung"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/imageButtonHome"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/ic_baseline_local_offer_24" />
+
+    <TextView
+        android:id="@+id/textViewVerwalten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_view_verwaltung"
+        android:layout_centerInParent="true"
+        android:text="@string/meine_angebote"
+        android:textSize="25sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewXML"
+        android:layout_below="@+id/textViewVerwalten"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageButton
+        android:id="@+id/imageButtonHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/ic_baseline_home_24"/>
+</RelativeLayout>

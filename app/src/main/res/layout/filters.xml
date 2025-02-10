@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/überschriftKategorien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kategorien_überschrift"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_Bücher"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/bücher" />
+
+        <CheckBox
+            android:id="@+id/checkBox_Zeitschriften"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/zeitschriften" />
+
+        <CheckBox
+            android:id="@+id/checkBox_CDs"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/cds" />
+
+        <CheckBox
+            android:id="@+id/checkBox_DVDs"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/dvds" />
+
+        <CheckBox
+            android:id="@+id/checkBox_Sonstiges"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/sonstiges" />
+
+        <Button
+            android:id="@+id/buttonFilters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kategorien_anzeigen" />
+
+        <Button
+            android:id="@+id/buttonAlleHerunterladen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alle_angebote_anzeigen" />
+
+</LinearLayout>

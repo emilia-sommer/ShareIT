@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/updateXML"
+        android:icon="@drawable/aktualisierzeichen"
+        android:title="@string/angebote_aktualisieren"
+        app:showAsAction="never"
+        android:orderInCategory="1"/>
+
+    <item
+        android:id="@+id/filtersymbolXML"
+        android:icon="@drawable/filter"
+        android:title="@string/angebote_filtern"
+        app:showAsAction="never"
+        android:orderInCategory="2"/>
+
+    <item
+        android:id="@+id/angebotEinstellenXML"
+        android:icon="@drawable/angebot_einstellen"
+        android:title="@string/neues_angebot_einstellen"
+        app:showAsAction="never"
+        android:orderInCategory="3"/>
+
+    <item
+        android:id="@+id/angeboteVerwaltenXML"
+        android:title="@string/angebote_verwalten"
+        app:showAsAction="never"
+        android:orderInCategory="4"/>
+
+    <item
+        android:id="@+id/meineFavoritenAnsehenXML"
+        android:title="@string/meine_favoriten_ansehen"
+        app:showAsAction="never"
+        android:orderInCategory="5"/>
+
+    <item
+        android:id="@+id/profilXML"
+        android:title="@string/profil"
+        app:showAsAction="never"
+        android:orderInCategory="6"/>
+
+    <item
+        android:id="@+id/logoutXML"
+        android:icon="@drawable/logoutzeichen"
+        android:title="@string/logout"
+        app:showAsAction="never"
+        android:orderInCategory="7"/>
+
+</menu>

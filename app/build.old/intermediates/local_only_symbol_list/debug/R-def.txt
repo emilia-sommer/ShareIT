@@ -1,0 +1,23 @@
+R_DEF: Internal format may change without notice
+local
+array alleAngebote
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable logo_shareit
+drawable logo_shareit_background
+id idCourse
+id idXMLAngebotBeschreibung
+id idXMLAngebotName
+id idXMLPersonName
+layout activity_main
+layout card_layout
+raw alleangebote
+string app_name
+string course_name
+string course_rating
+style Theme.CardViewTest

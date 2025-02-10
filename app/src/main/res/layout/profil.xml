@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButtonHome2"
+        app:srcCompat="@drawable/ic_baseline_home_24"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        app:srcCompat="@drawable/ic_baseline_person_pin_24"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/imageButtonHome2"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/benutzername"
+        android:text="@string/benutzername"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/benutzernameToChange"
+        android:layout_below="@+id/benutzername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/vorname"
+        android:text="@string/vorname"
+        android:textStyle="bold"
+        android:layout_below="@+id/benutzernameToChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/vornameToChange"
+        android:layout_below="@+id/vorname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/nachname"
+        android:text="@string/nachname"
+        android:textStyle="bold"
+        android:layout_below="@+id/vornameToChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/nachnameToChange"
+        android:layout_below="@+id/nachname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/klasse"
+        android:text="@string/klasse"
+        android:textStyle="bold"
+        android:layout_below="@+id/nachnameToChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/klasseToChange"
+        android:layout_below="@+id/klasse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
